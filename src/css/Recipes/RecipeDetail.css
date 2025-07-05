@@ -1,0 +1,168 @@
+.recipe-detail {
+    padding: 20px;
+    padding-top: 300px;
+    font-family: Arial, sans-serif;
+    padding-top: 250px;
+  }
+  
+  .heading {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .detailImage {
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .textColumn {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .detailHeading {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+  }
+  
+  .desc {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.6;
+    max-width: 500px;
+  }
+.highlights{
+    gap:120px;
+    display:flex;
+    justify-content: start;
+    width: 100%;
+}
+.highlights p{
+    display: inline;
+    justify-content: start;
+    padding-right: 80px;
+}  
+
+.ing, .ins, .nut {
+    margin-bottom: 30px;
+     
+  }
+  .ing p,
+  .ins p,
+  .nut p {
+    font-weight: bold;
+    color: orangered;
+    margin-bottom: 5px;
+    display: flex;
+    background-color: black;
+    width: 150px;
+    border-radius: 12px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px;
+
+  }
+  
+  .ing pre,
+  .ins pre,
+  .nut pre {
+    display: flex;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 6px;
+    white-space: pre-wrap;
+    max-width: 800px;
+    font-size: 14px;
+    color: #333;
+    
+  }
+ 
+  
+  .ing p, .ins p, .nut p {
+    background-color: black;
+    color: orange;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+/* Make sure list items are vertical */
+.ing ul, .ins ul, .nut ul,
+.ing ol, .ins ol {
+  display: block; /* Ensure vertical stacking */
+  background: #f5f5f5;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+  text-align: left; /* Force left alignment */
+}
+
+.recipe-detail li {
+  display: block; /* force each li on its own line */
+  margin-bottom: 8px;
+  font-size: 20px;
+  color: black;
+  
+}
+.by-chef {
+  width: 45px;           /* Small size */
+  height: 45px;          /* Equal height/width for circle */
+  border-radius: 50%;    /* Make it circular */
+  object-fit: cover;     /* Ensure image fills the space */
+  margin-left: 10px;     /* Space between text and image */
+  border: 2px solid orange; /* Optional: add a border */
+}
+/* interactoion section */
+.interaction-list{
+  padding-right: 300px;
+}
+
+.interaction-list .interaction{
+ display: inline;
+ justify-self: unset;
+ padding-left: 20px;
+  
+}
+.title-rating-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* pushes title and rating apart */
+  gap: 30px; /* space between title and rating */
+  flex-wrap: wrap; /* wrap if screen is small */
+}
+
+.detailHeading {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  white-space: nowrap; /* prevents title from wrapping */
+}
+
+.simple-rating {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.star-section {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.average-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.chef-photo{
+  padding-left: 500px;
+  margin-top: 80px;
+}

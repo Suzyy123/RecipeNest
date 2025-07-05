@@ -1,0 +1,41 @@
+
+  .filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px; /* spacing between filter buttons */
+    padding: 40px 0;
+  }
+  
+  .f1 {
+    list-style: none;
+  }
+  
+  .f1 a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 10px 20px;
+    color: black;
+    background-color: rgb(247, 247, 247);
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Optional: spacing for the icon */
+  .icon-filter {
+    margin-right: 8px;
+  }
+  
+  /* Hover effect */
+  .f1 a:hover {
+    background-color: black;
+    color: #F7F7F7;
+  }
+  

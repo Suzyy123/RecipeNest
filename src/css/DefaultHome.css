@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: white; */
+    width: 1350px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .defaultHome {
+    padding-top: 10px;
+    width: 1450px;
+    height: auto;
+    object-fit: cover;
+    display: block; /* Makes sure there's no weird spacing */
+  }
+  
+  .home-content {
+    text-align: center;
+    padding-top: 50px; /* Optional: spacing above the text */
+  }
+  
+  .home-starting {
+    margin-top: 20px; /* Space between image and heading */
+  }
+/* For Do you love to cook */
+  .quen1{
+    animation: fade-slide-up 2s ease-in-out ;
+  }
+  .quen1 span:nth-child(odd) {
+    color: black;
+  }
+  
+  .quen1 span:nth-child(even) {
+    color: orange;
+  }
+  
+  
+.section-header {
+  display: flex;
+  justify-content: space-between; /* Push text to edges */
+  align-items: center;
+  margin: 40px 0 20px;
+  padding: 0 10px;
+}
+
+.section-header h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}
+
+.section-header .highlight {
+  color: #ffa500; /* Orange for "Chefs" */
+}
+
+.section-header .see-more {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.section-header .see-more:hover {
+  color: #ffa500;
+}
+
+
+
+/* See More Links */
+p a {
+  display: inline-block;
+  text-align: center;
+  margin: 20px auto;
+  color: #ffa500;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #ffa500;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background 0.3s ease-in-out;
+}
+
+p a:hover {
+  background: #ffa500;
+  color: #fff;
+}
+
+/* Section Spacing */
+.recipeContent + p a {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+  /* Animation */
+  @keyframes fade-slide-up {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
+  
+  

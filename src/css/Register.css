@@ -1,0 +1,150 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+.registerImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.register-form {
+  margin-top: 40px;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  border-radius: 8px;
+  width: 380px;
+  height: 680px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+label {
+  color: black;
+  margin-right: 240px;
+  width: 100%;
+  text-align: start;
+}
+
+.input-group {
+  margin-bottom: -15px;
+  width: 330px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: black;
+}
+
+.input-icon-group {
+  position: relative;
+}
+
+.input-icon-group input {
+  width: 100%;
+  padding: 10px 35px 10px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Radio Button Group */
+.input-radio-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 8px 0;
+}
+
+.input-radio-group label {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: black;
+}
+
+.input-radio-group input[type='radio'] {
+  accent-color: #2196F3;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.input-group .error {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 4px;
+}
+.register-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  font-size: 16px;
+}
+
+.btn-register {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.btn-register:hover {
+  background-color: orangered;
+}
+
+.login-link {
+  margin-top: -14px;
+  text-align: center;
+}
+
+.login-link a {
+  color:orange;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+.social-register {
+  display: flex;
+  justify-content: center;
+  gap: 1px;
+  margin-top: -1px;
+}
+
+.social-register img {
+  width: 30px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.social-register img:hover {
+  transform: scale(1.1);
+}

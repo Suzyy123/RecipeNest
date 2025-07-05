@@ -1,0 +1,77 @@
+.footercontent { 
+    height: 700px;
+    width: 1550px;
+    background-color: black;
+    transform: translateX(-8%); 
+    border-radius: 40px;
+    color: white;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+}
+.footer-right {
+    display: flex;
+    flex-direction: row;
+     width: 100%;
+     margin-top:-90px ;
+}
+.heading{
+  color: orange;
+  padding-right: 100px;
+}
+
+.contact h1, .Recipes h1, .company h1{
+    color: orange;
+}
+.company , .Recipes , .contact {
+    flex-direction: row;
+    padding-right: 300px;
+    padding-left: 100px;
+    cursor: pointer;   
+    font-size: 20px;
+    width: 100%;
+}
+.company p, .Recipes p, .contact p{
+  width: 100%;
+}
+.followlist{
+    display: flex;
+    gap:20px;
+    color: white;   
+}
+ .followlist li{
+    list-style: none;
+    display: inline;
+    cursor: pointer;
+    font-size: 20px;
+   
+}
+li:hover{
+color:orange
+}
+.footer-top h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+    animation: fade-slide-up 2s ease-in-out;
+  }
+  /* .heading span:nth-child(odd) {
+    color: white;
+  }
+  
+  .heading span:nth-child(even) {
+    color: orange;
+  } */
+
+
+.heading span:nth-child(odd) {
+  color: white;
+}
+
+.heading span:nth-child(even) {
+  color: orange;
+}
